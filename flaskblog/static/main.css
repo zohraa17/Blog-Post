@@ -1,0 +1,332 @@
+/* Navigation styles */
+.nav {
+    padding: 20px; /* Some padding */
+    text-align: center; /* Center align text */
+}
+
+.nav-link {
+    color: #AD88C6; /* Purple text color */
+    text-decoration: none; /* Remove underline */
+    margin: 0 15px; /* Margin between links */
+    font-weight: bold; /* Bold text */
+}
+
+.nav-link:hover,
+.nav-link.active {
+    color: #E1AFD1; /* Light purple on hover or active */
+    text-decoration: underline; /* Underline on hover or active */
+}
+
+/* Button styles */
+.btn-outline-primary,
+.btn-primary,
+.btn-outline-info {
+    background-color: #f8b8d4;
+    border: none;
+    color: white;
+    padding: 8px 16px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 5px;
+    outline: none;
+    box-shadow: none;
+    border-color: #FFACC7;
+}
+
+.btn-outline-primary:hover,
+.btn-primary:hover,
+.btn-outline-info:hover {
+    background-color: #E1AFD1; /* Background on hover */
+    color: #FFE6E6; /* Text color on hover */
+    outline: none;
+    box-shadow: none;
+    border-color: #FFACC7;
+}
+
+.btn-primary {
+    background-color: #E1AFD1; /* Background color */
+    color: white; /* Text color */
+    border-color: #FFACC7;
+}
+
+/* Image styles */
+.rounded-circle {
+    width: 150px;  /* Adjust the width as needed */
+    height: 150px; /* Adjust the height as needed */
+    border-radius: 50%; /* Make it circular */
+    object-fit: cover; /* Ensure the image covers the element */
+    display: block; /* Center the image */
+    margin: 0 auto 16px auto; /* Center the image and add margin-bottom */
+}
+
+/* Form styles */
+.login-container {
+    max-width: 400px; /* Set max width for the form */
+    margin: 50px auto; /* Center the form and add margin */
+    padding: 20px; /* Padding around the form */
+    background-color: #fefefe; /* White background */
+    border-radius: 10px; /* Rounded corners */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+}
+
+.form-group {
+    margin-bottom: 15px; /* Space between form elements */
+}
+
+.form-group label {
+    display: block; /* Block display */
+    margin-bottom: 5px; /* Margin below label */
+}
+
+.form-group input {
+    width: 100%; /* Full width */
+    padding: 10px; /* Padding inside input */
+    box-sizing: border-box; /* Ensure padding doesn't overflow */
+    border: 1px solid #ddd; /* Light border */
+    border-radius: 5px; /* Rounded corners */
+}
+
+.form-group input:focus {
+    border-color: #E1AFD1; /* Border color on focus */
+    outline: none; /* Remove outline */
+}
+
+.form-check {
+    display: flex;
+    align-items: center;
+    margin-top: 15px;
+}
+
+.form-check input {
+    width: auto;
+    margin-right: 10px;
+}
+
+.form-check label {
+    margin: 0 0 0 5px; /* Optional: a small space between the checkbox and label */
+}
+
+.links {
+    margin-top: 20px; /* Margin above links */
+}
+
+.links a {
+    display: block; /* Block display */
+    margin-top: 5px; /* Margin between links */
+    color: #AD88C6; /* Link color */
+    text-decoration: none; /* Remove underline */
+}
+
+.links a:hover {
+    text-decoration: underline; /* Underline on hover */
+}
+
+
+
+
+.the-main-heading{
+    color: #F185B3;
+}
+
+.account-heading {
+    font-size: 2.5rem;
+}
+
+.article-img {
+    height: 65px;
+    width: 65px;
+    margin-right: 16px;
+}
+
+.article-title {
+    color: #E1AFD1;
+}
+
+a.article-title:hover {
+    color: #7469B6;
+    text-decoration: none;
+}
+
+.article-content {
+    white-space: pre-line;
+    color: #AD88C6;
+}
+
+a {
+    color: #7469B6;
+    text-decoration: none;
+    background-color: transparent;
+}
+
+.mb-3 {
+    color: #E78895;
+}
+
+.btn-info {
+    color: #fff;
+    background-color: #FFACC7;
+    border-color: #FF8DC7;
+}
+
+.btn-info:hover {
+    background-color: #FF8DC7;
+    border-color: #EC729C;
+}
+
+.list-group-item {
+    background-color: #FFEFEF;
+    color: #FFEFEF;
+}
+
+body {
+    background-color: #F5E6E8; /* Nude color */
+    height: 100vh; /* Full height of viewport */
+    align-items: center;
+    justify-content: center;
+    margin: auto; /* Remove default margin */
+}
+
+/* Custom CSS */
+header {
+  background-color: #f8f9fa;
+}
+
+.main {
+  flex: 1;
+  padding: 20px;
+}
+
+/* Make the main content and sidebar scrollable */
+.main-content {
+  height: calc(100vh - 200px);
+  overflow-y: auto;
+}
+
+.carousel-item img {
+    width: 100%;
+    height: auto;
+}
+
+.contact-section {
+    width: 100%; /* Full width of the viewport */
+    padding: 20px; /* Add some padding */
+    background-color: #f5e6f2; /* Adjust background color as needed */
+    box-sizing: border-box; /* Ensure padding doesn't overflow */
+}
+
+body, html {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.container-fluid {
+    padding: 0; /* Remove default padding if necessary */
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.header,
+.main,
+.footer {
+    margin: 20px;
+}
+
+.alert {
+    margin-top: 20px;
+}
+
+footer {
+    background-color: #AD88C6;
+    color: #FFFFFF;
+    padding: 10px 0;
+}
+
+main {
+    background-color: #FDEBF7;
+    padding-top: 20px;
+}
+
+footer {
+    margin-top: auto;
+}
+
+/* Responsive Layout Adjustments */
+@media (min-width: 576px) {
+    .container, .container-sm {
+        max-width: 100%; /* Set to full width */
+    }
+}
+
+.full-width-container {
+    width: 100%;
+    max-width: 100%;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+@media (min-width: 600px) {
+    .container-sm {
+        max-width: 540px;
+        margin-left: auto;
+        margin-right: auto;
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+}
+
+@media (min-width: 768px) {
+    .container-md {
+        max-width: 720px;
+        margin-left: auto;
+        margin-right: auto;
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+}
+
+@media (min-width: 992px) {
+    .container-lg {
+        max-width: 960px;
+        margin-left: auto;
+        margin-right: auto;
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+}
+
+@media (min-width: 1200px) {
+    .container-xl {
+        max-width: 1140px;
+        margin-left: auto;
+        margin-right: auto;
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+}
+
+@media (min-width: 1400px) {
+    .container-xxl {
+        max-width: 1320px;
+        margin-left: auto;
+        margin-right: auto;
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+}
+
+.container-xs, .container {
+    width: 100%;
+    max-width: 100%;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-left: auto;
+    margin-right: auto;
+}
